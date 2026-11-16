@@ -14,6 +14,18 @@ namespace BuildingBlocks
             char d = 'A';  // 2 byte
             float e = 123.76F;  // 4 byte
             double f = 3435.676; // 6 byte
+
+            Console.Write("Enter your name:\n");
+            string name = Console.ReadLine();
+            Console.Write("Enter your age:\n");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter your address:\n");
+            string address = Console.ReadLine();
+
+            Console.WriteLine("\n--- User dashboard ---");
+            Console.WriteLine("welcome Name:" + name);
+            Console.WriteLine("Age:" + age);
+            Console.WriteLine("Address:" + address);
         }
     }
 }
