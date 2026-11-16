@@ -23,14 +23,15 @@ namespace BuildingBlocks
             string address = Console.ReadLine();
             Console.WriteLine("Enter Country name");
             string country = Console.ReadLine();
-
-
+            Console.WriteLine("Enter your Father");
+            string father = Console.ReadLine();
 
             Console.WriteLine("\n--- User dashboard ---");
             Console.WriteLine("welcome Name:" + name);
             Console.WriteLine("Age:" + age);
             Console.WriteLine("Address:" + address);
-            Console.WriteLine("your Country :" +country);
+            Console.WriteLine("Country:" +country);
+            Console.WriteLine("father:" + father);
         }
     }
 }
